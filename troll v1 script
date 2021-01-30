@@ -1,0 +1,155 @@
+
+-- Made By trollking0932
+-- TROLL V1
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local close = Instance.new("TextButton")
+local Button1 = Instance.new("TextButton")
+local credits = Instance.new("TextLabel")
+local Button3 = Instance.new("TextButton")
+local Button2 = Instance.new("TextButton")
+local openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(68, 67, 62)
+main.BackgroundTransparency = 0.045
+main.BorderColor3 = Color3.fromRGB(27, 42, 53)
+main.BorderSizePixel = 3
+main.Position = UDim2.new(0.0217687078, 0, 0.346555352, 0)
+main.Size = UDim2.new(0.587755084, 0, 0.57995826, 9)
+main.Visible = false
+main.Active = true
+main.Draggable = true
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(95, 103, 108)
+title.BorderSizePixel = 3
+title.Size = UDim2.new(1, 0, 0.148000002, 0)
+title.Font = Enum.Font.SourceSansLight
+title.Text = "TROLL . V1"
+title.TextColor3 = Color3.fromRGB(32, 32, 32)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(221, 0, 0)
+close.BackgroundTransparency = 0.014
+close.BorderSizePixel = 3
+close.Position = UDim2.new(0.905092597, 0, 0, 0)
+close.Size = UDim2.new(0.0949074104, 0, 0.14769873, 0)
+close.Font = Enum.Font.SourceSans
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+close.MouseButton1Down:connect(function()
+main.Visible = false
+openmain.Visible = true
+end)
+
+Button1.Name = "Button1"
+Button1.Parent = main
+Button1.BackgroundColor3 = Color3.fromRGB(110, 110, 110)
+Button1.BackgroundTransparency = 0.014
+Button1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button1.BorderSizePixel = 3
+Button1.Position = UDim2.new(0.0462962613, 0, 0.264992952, 0)
+Button1.Size = UDim2.new(0.278703719, 0, 0.12329153, 0)
+Button1.Font = Enum.Font.Cartoon
+Button1.Text = "DOG"
+Button1.TextColor3 = Color3.fromRGB(255, 0, 0)
+Button1.TextScaled = true
+Button1.TextSize = 14.000
+Button1.TextWrapped = true
+Button1.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/uB5LJvmb'),true))()
+end)
+
+credits.Name = "credits"
+credits.Parent = main
+credits.BackgroundColor3 = Color3.fromRGB(95, 103, 108)
+credits.BackgroundTransparency = 1.000
+credits.BorderSizePixel = 0
+credits.Position = UDim2.new(0.631944418, 0, 0.930962265, 0)
+credits.Size = UDim2.new(0.368055552, 0, 0.0690381452, 0)
+credits.Font = Enum.Font.SourceSansLight
+credits.Text = "Made By trollking0932"
+credits.TextColor3 = Color3.fromRGB(32, 32, 32)
+credits.TextScaled = true
+credits.TextSize = 14.000
+credits.TextTransparency = 0.340
+credits.TextWrapped = true
+
+Button3.Name = "Button3"
+Button3.Parent = main
+Button3.BackgroundColor3 = Color3.fromRGB(110, 110, 110)
+Button3.BackgroundTransparency = 0.014
+Button3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button3.BorderSizePixel = 3
+Button3.Position = UDim2.new(0.673611045, 0, 0.264992952, 0)
+Button3.Size = UDim2.new(0.278703719, 0, 0.12329153, 0)
+Button3.Font = Enum.Font.Cartoon
+Button3.Text = "ANCIENT"
+Button3.TextColor3 = Color3.fromRGB(33, 33, 33)
+Button3.TextScaled = true
+Button3.TextSize = 14.000
+Button3.TextWrapped = true
+Button3.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/CZpG3YLz'),true))()
+end)
+
+Button2.Name = "Button2"
+Button2.Parent = main
+Button2.BackgroundColor3 = Color3.fromRGB(110, 110, 110)
+Button2.BackgroundTransparency = 0.014
+Button2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Button2.BorderSizePixel = 3
+Button2.Position = UDim2.new(0.358796269, 0, 0.264992952, 0)
+Button2.Size = UDim2.new(0.278703719, 0, 0.12329153, 0)
+Button2.Font = Enum.Font.Cartoon
+Button2.Text = "ADMIN"
+Button2.TextColor3 = Color3.fromRGB(7, 161, 195)
+Button2.TextScaled = true
+Button2.TextSize = 14.000
+Button2.TextWrapped = true
+Button2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/Caniwq2N'),true))()
+end)
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+openmain.BorderSizePixel = 0
+openmain.Position = UDim2.new(0.793197274, 0, 0.868476033, 0)
+openmain.Size = UDim2.new(0.176870748, 0, 0.0851774514, 0)
+openmain.Active = true
+openmain.Draggable = true
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.fromRGB(110, 110, 110)
+open.BackgroundTransparency = 0.014
+open.BorderSizePixel = 3
+open.Position = UDim2.new(0, 0, -0.0245098043, 0)
+open.Size = UDim2.new(1, 0, 1.02450979, 0)
+open.Font = Enum.Font.Cartoon
+open.Text = "Open"
+open.TextColor3 = Color3.fromRGB(32, 32, 32)
+open.TextScaled = true
+open.TextSize = 14.000
+open.TextWrapped = true
+open.MouseButton1Down:connect(function()
+openmain.Visible = false
+main.Visible = true
+end)
